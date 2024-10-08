@@ -16,3 +16,39 @@ Overfitting and Underfitting Analysis: Explores model performance across various
 Documentation and Collaboration: The code is well-documented to facilitate understanding and collaboration, making it easy for others to contribute or learn from the project.
 
 This project serves as an educational resource for understanding machine learning concepts and workflows while providing a practical example of classification tasks. It is suitable for both beginners and those looking to deepen their knowledge in data analysis and predictive modeling.
+
+# Iris Flower Classification
+
+This repository contains a Python script that demonstrates how to classify iris flowers using machine learning techniques, specifically the K-Nearest Neighbors (KNN) algorithm. The script uses the famous Iris dataset, a classic dataset in machine learning and statistics.
+
+## Description
+
+The script performs the following steps:
+
+1. **Data Loading:** Loads the Iris dataset using scikit-learn's `datasets.load_iris()` function.
+2. **Data Exploration:** Provides a basic exploration of the dataset, including its shape, feature names, and target names.
+3. **Data Visualization:** Creates a scatter matrix plot to visualize the relationships between different features of the iris flowers.
+4. **Model Training:** Creates a KNN classifier and trains it using the Iris dataset.
+5. **Prediction:** Uses the trained model to predict the class of a new data point.
+6. **Evaluation:** Evaluates the model's performance by calculating its accuracy score.
+7. **Overfitting and Underfitting:** The script demonstrates the concept of overfitting and underfitting with varying numbers of neighbors in the KNN algorithm.
+8. **Decision Tree:** It includes an example of Decision Tree Classifier, fitting and predicting using the model.
+
+## Requirements
+
+To run this script, you need the following libraries installed:
+
+- NumPy
+- Pandas
+- Matplotlib
+- Scikit-learn
+- IPython
+
+You can install these libraries using `pip`:
+
+## Usage
+
+1. Clone this repository to your local machine.
+2. Open the `iris_classification.py` file in a Python environment (e.g., Google Colab, Jupyter Notebook).
+3. Run the script.
+
